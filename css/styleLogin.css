@@ -1,0 +1,114 @@
+main {
+    display: flex;
+    height: 100vh;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section {
+    height: 100%;
+}
+
+section.content-model {
+    width: 80%;
+}
+
+section.content-model header {
+    height: 15%;
+}
+
+.logo {
+    margin: 50px;
+}
+
+.arrow {
+    margin: 55% 0 0 50px;
+    width: 50px;
+    height: 50px;
+    font-size: xx-large;
+    border-radius: 50%;
+    background-color: black;
+    cursor: pointer;
+}
+
+.arrow:hover {
+    background-color: blue;
+}
+
+.arrow i {
+    color: white;
+}
+
+section.login-model {
+    margin-right: 30%;
+    width: 75%;
+    padding: 0;
+    background-color: #054ba1;
+}
+
+.login-model .container {
+    margin: 50px 60px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: large;
+    font-family: 'Poppins', sans-serif;
+}
+
+.login-model .container h1 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.login-model .container h2 {
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+.login-model .container h3 {
+    margin: 7px 0 15px 0;
+    font-size: 15px;
+    font-weight: 500;
+    color: greenyellow;
+}
+
+.login-model .container form .element {
+    display: flex;
+    margin: 15px 0;
+    background-color: white;
+    border-radius: 2px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+input {
+    border: none;
+    outline: none;
+}
+
+i {
+    color: #e84601;
+    margin: 10px;
+}
+
+button {
+    margin-top: 20px;
+    width: 100%;
+    background-color: #e84601;
+    border: none;
+    outline: none;
+    padding: 12px 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: large;
+}
+
+button:hover {
+    background-color: #742b0c;
+}

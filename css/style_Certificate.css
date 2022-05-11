@@ -1,0 +1,56 @@
+.title {
+    font-size: large;
+    /* border-top: 1px solid rgba(155, 149, 149, 0.521); */
+    border-bottom: 1px solid rgba(155, 149, 149, 0.521);
+    margin: 33px 10px;
+    padding: 15px;
+}
+
+.Form-Container {
+    position: relative;
+    margin: 10px;
+    border-radius: 10px;
+    width: 70%;
+    height: 50vh;
+    background-color: rgba(85, 78, 78, 0.521);
+}
+
+.Form-Container form {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+button,
+input,
+.certificateNo {
+    width: 100%;
+    padding: 20px 5px;
+    margin: 5px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+input {
+    border: 2px solid;
+    margin: 10px 0;
+    padding: 20px 0;
+    font-size: large;
+}
+
+button {
+    background-color: blue;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: rgba(0, 0, 255, 0.39);
+}
